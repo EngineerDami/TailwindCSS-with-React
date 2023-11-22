@@ -11,20 +11,20 @@ function Footer() {
 						<p className='relative text-base-content'>Follow us on</p>
 
 						<Link to='/' className='btn btn-sm rounded-btn '>
-							<div class='fa-bilibili'></div>Bilibili
+							<div className='fa-bilibili'></div>Bilibili
 						</Link>
 						<Link to='/porfolio' className='btn btn-sm rounded-btn'>
-							<div class='fa-kook'></div>KOOK
+							<div className='fa-kook'></div>KOOK
 						</Link>
 						<Link to='/resources' className='btn btn-sm rounded-btn '>
 							<TbBrandDiscord className='h-5 w-5' />
-							Resources
+							Github
 						</Link>
 					</div>
 				</div>
 			</footer>
 
-			<footer className='footer footer-center border-t-2 border-gray-400 px-10 pt-7 pb-5 bg-base-200 text-base-content border-base-300'>
+			<footer className='footer footer-center border-t-2 border-gray-400 px-10 pt-7 pb-5 bg-base-200 text-base-content'>
 				<aside>
 					<p className='pb-3'>
 						Copyright © 2023 - All right reserved by Engineerdami
